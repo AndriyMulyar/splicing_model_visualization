@@ -1,0 +1,33 @@
+
+<script>
+    var json = {
+          "nucleotide_sequence": "ATGAU",
+          "secondary_structure": ",.(.).",
+          "inclusion_nucleotide_filters": {
+            "0": 0.023,
+            "2": 102,
+            "19": 0.182
+          },
+          "exclusion_nucleotide_filters": {
+            "0": 0.023,
+            "2": 102,
+            "19": 0.182
+          },
+          "inclusion_structure_filters": {
+            "0": 0.023,
+            "2": 102,
+            "19": 0.182
+          },
+          "exclusion_structure_filters": {
+            "0": 0.023,
+            "2": 102,
+            "19": 0.182
+          }
+        }
+
+
+    d3.json(json, function(json) {
+        root = json;
+    });
+
+</script>
